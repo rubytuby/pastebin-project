@@ -8,5 +8,16 @@ namespace PastebinProject.Controllers
 		{
 			return View();
 		}
+
+		public IActionResult Create()
+		{
+			return View();
+		}
+
+		public IActionResult Pastebin()
+		{
+			return View();
+		}
+
 	}
 }
